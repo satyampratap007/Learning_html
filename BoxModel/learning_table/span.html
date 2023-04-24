@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="Table1">
+        <table>
+            <tr>
+                <td>abcd</td>
+                <td>abcd</td>
+                <td>abcd</td>
+            </tr>
+            <tr>
+                <td>abcd</td>
+                <td>abcd</td>
+                <td>abcd</td>
+            </tr>
+            <tr>
+                <td>abcd</td>
+                <td>abcd</td>
+                <td>abcd</td>
+            </tr>
+            <tr>
+                <td>xyz</td>
+                <td>abcd</td>
+                <td>abcd</td>
+            </tr>
+            <tr>
+                <td>abcd</td>
+                <td>abcd</td>
+                <td>abcd</td>
+            </tr>
+            <caption>&gtMy first Table</caption>
+        </table>
+        <hr>
+    </div>
+
+<div class="Table2">
+    <table>
+        <!-- spanning in table -->
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting value</td>
+            <td>after eating</td>
+        </tr>
+        <tr>
+            <td>minimum</td>
+            <td>maximum</td>
+            <td>2 hr after eating</td>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less than 140</td>
+        </tr>
+        <tr>
+            <td>pre-diab</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>NA</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    <caption>&gtMy second Table</caption>
+    <hr>
+</div>
+
+<div class="Table3">
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: aquamarine;">
+            <col span="1" style="background-color: rebeccapurple;">
+        </colgroup>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+        </tr>
+    </table>
+    <caption>&gtMy third Table</caption>
+    <hr>
+</div>
+
+</body>
+</html>
